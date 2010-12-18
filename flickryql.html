@@ -1,0 +1,29 @@
+<!doctype html>
+
+<html>
+<head>
+<meta name="viewport" content="width=device-width; initial-scale=1.0;"/>
+<style media="screen">
+
+</style>
+
+</head>
+
+<body>
+  
+<div id="flickr"></div>
+
+<script src="flickryql-min.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function(){
+  flickrYql.init({
+    containerID: 'flickr',
+    size: 't',
+    username: 'franksvalli',
+    results: 5
+  });
+}, false);  
+</script>
+
+</body>
+</html>
